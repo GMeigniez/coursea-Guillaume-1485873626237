@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: coursea-Guillaume
+  host: coursea-Guillaume
+  disk_quota: 1024M
+  services:
+  - coursea-Guillaume-cloudantNoSQLDB
+  - coursea-Guillaume-iotf-service
